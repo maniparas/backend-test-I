@@ -1,1 +1,4 @@
+oauth2client
 tweepy
+gspread
+PyOpenSSL
