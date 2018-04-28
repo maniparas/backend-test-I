@@ -11,6 +11,7 @@ class GSpreadSheet(object):
             self.gc = gspread.authorize(credentials)
         except FileNotFoundError as e:
             print(e.reason)
+            print('Not pushed the google spreadsheet json file because of security reason')
 
     def open(self, file='TestHashtagBot'):
         """
@@ -73,11 +74,6 @@ class GSpreadSheet(object):
             print("Spreadsheet is empty")
             # If the data is empty add only headings
             wks.append_row(['Profile Name', 'Followers Count'])
-
-        # # If the data is empty add only headings
-        # if self.is_empty(data):
-        #     wks.update_cell('A1', 'Profile Name')
-        #     wks.update_cell('B1', 'Followers Count')
 
         # If data isn't empty append records
         wks.append_row(data_to_write)
