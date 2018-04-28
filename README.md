@@ -42,4 +42,4 @@ We look forward to seeing what you can do. Remember, although it is a test, ther
 
 
 ## Demo
-![screen shot](https://user-images.githubusercontent.com/8668661/33088863-330b4250-ceef-11e7-9e9c-b4fd9ca299d8.gif)
+![screen shot](https://gph.is/2FoThbJ)

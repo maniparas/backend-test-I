@@ -63,6 +63,10 @@ class MyCustomBotListener(tweepy.StreamListener):
         file_name = 'TestHashtagBot'
         spreadsheet.write(file=file_name, data_to_write=data_to_write)
 
+        print(f'[*] Profile Name : {username}')
+        print(f'[*] Followers Count : {count_followers}')
+        print('-' * 100)
+
 
 if __name__ == "__main__":
     text = input(" Enter comma separated hash tags, with hash tag symbol :- ")
