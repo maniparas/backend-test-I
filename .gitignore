@@ -107,3 +107,5 @@ venv.bak/
 
 .idea/*
 Test Hashtag Bot-85bcf54c6a5e.json
+.DS_Store
+docs/correct_conf.py
