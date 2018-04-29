@@ -65,6 +65,10 @@ class MyCustomBotListener(tweepy.StreamListener):
 
         print(f'[*] Profile Name : {username}')
         print(f'[*] Followers Count : {count_followers}')
+        if 1000 <= count_followers <= 50000:
+            print(f'[*] Matching the followers criteria')
+        else:
+            print(f'[*] Not matching the followers criteria')
         print('-' * 100)
 
 

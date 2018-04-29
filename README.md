@@ -42,4 +42,4 @@ We look forward to seeing what you can do. Remember, although it is a test, ther
 
 
 ## Demo
-![screen shot](https://puu.sh/Ac3R2/d29101f331.gif)
+![screen shot](https://puu.sh/AcElq/e508b701b6.gif)
