@@ -37,18 +37,6 @@ class GSpreadSheet(object):
         :return:
         """
 
-    def is_empty(self, data):
-        """
-        This method checks whether the spreadsheet is empty or not
-        :param data:
-        :return:
-        """
-        count = 0
-        for value in data:
-            if value and value != ['']:
-                count += 1
-        return count == 0
-
     def write(self, worksheet=None, file=None, data_to_write=None):
         """
         This method would write data in spreadsheet,
